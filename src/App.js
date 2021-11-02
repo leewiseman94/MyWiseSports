@@ -1,6 +1,7 @@
 import React from 'react'
-import WineList from './components/WineList'
-import Home from './components/Home'
+import FootballHome from './components/FootballHome'
+import Predictions from './components/Predictions'
+import Home from './components/Scores'
 import NavBar from './components/NavBar'
 import Register from './components/Register'
 import Login from './components/Login'
@@ -17,7 +18,8 @@ const App = () => {
         <NavBar />
         <Switch>
           <Route exact path="/" component={Home}/>
-          <Route exact path="/wines" component={WineList}/>
+          <Route exact path="/football" component={FootballHome}/>
+          <Route exact path="/football/predictions" component={Predictions}/>
           <Route exact path="/wines/:id" component={WineDetails}/>
           <Route exact path="/register" component={Register}/>
           <Route exact path="/login" component={Login}/>

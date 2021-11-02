@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  /* font-family: 'Comfortaa', cursive; */
+  font-family: 'Gluten', cursive;
+  box-sizing: border-box;
+}
+
+.title {
+  font-size: calc(1.375rem + 2.5vw);
+  font-weight: 700;
+}
+
+.sub-title {
+  font-size: calc(0.75rem + 0.5vw);
+  font-weight: 300;
+}
+
+.container {
+  max-width: 1150px;
+}
+
+p {
+  font-weight: 300;
+}
+
+hr {
+  color: rgb(0, 122, 223);
+  height: 2px !important;
+  opacity: 0.8;
+}
+
+/* NAVBAR */
+
+.hero-section {
+  background-image: url('../images/MyWiseSports_HomeBackground_1.png');
+  height: 200px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  position: sticky;
+  top: 0;
+}
+
+.hero-section-home {
+  height: calc(100vh - 80px);
+}
+
+.hero.container-fluid {
+  height: 100%;
+  max-width: 1200px;
+  padding-bottom: 40px;
+}
+
+.navbar-section {
+  height: 80px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar {
+  height: 100%;
+  box-shadow: 0px -10px 20px 6px black;
+}
+
+.navbar-container {
+  height: 100%;
+  max-width: 1200px;
+}
+
+.nav-link {
+  font-size: 20px;
+  color: black;
+}
+
+.active {
+  color: rgb(0, 122, 223);
+}
+
+
+/* HOMEPAGE */
+.page-title {
+  margin-top: 10px;
+}
+
+.page-subtitle {
+  color: rgb(0, 122, 223);
+  margin: 0;
+}
+
+
+.access-button {
+  text-align: center;
+  background: rgb(0, 122, 223);
+  color: white;
+  margin-top: 20px;
+  padding: 10px 20px;
+  text-decoration: none;
+  border: 2px solid rgb(0, 122, 223);
+  border-radius: 5px;
+}
+
+.access-button:hover {
+  background: white;
+  color: rgb(0, 122, 223);
+}
+
+.past-predictions-button {
+  text-align: center;
+  background: rgb(0, 133, 7);
+  color: white;
+  margin-top: 20px;
+  padding: 10px 20px;
+  text-decoration: none;
+  border: 2px solid rgb(0, 133, 7);
+  border-radius: 5px;
+}
+
+.past-predictions-button:hover {
+  background: white;
+  color: rgb(0, 133, 7);
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* SCORES */
+.date-button {
+  background: transparent;
+  border: 0;
+  color: black;
+}
+
+.date-button:hover {
+  background: white;
+  color: rgb(0, 122, 223);
+}
