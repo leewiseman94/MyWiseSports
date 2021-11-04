@@ -22,10 +22,24 @@ const Scores = () => {
 
   return (
     <>
-      <section className="section date-picker">
-        <div className="container-fluid justify-content-center">
-          <ScoresDateSelector />
+    <div class="container pt-5">
+      <div class="row">
+        <div class="col-md-2">
+          1 of 3
         </div>
+        <div class="col">
+          <div className="scores-page container-fluid justify-content-center p-0">
+            <ScoresDateSelector />
+          </div>
+        </div>
+        <div class="col-md-3">
+          3 of 3
+        </div>
+      </div>
+    </div>
+
+      <section className="section date-picker">
+        
       </section>
       <div className="container-fluid p-5"></div>
     </>

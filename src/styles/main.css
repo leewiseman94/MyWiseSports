@@ -139,9 +139,41 @@ hr {
   background: transparent;
   border: 0;
   color: black;
+  font-size: 16px;
 }
 
 .date-button:hover {
   background: white;
-  color: rgb(0, 122, 223);
+  color: rgb(0, 122, 223) !important;
+}
+
+.todaylive-button {
+  border: 1px solid lightgray;
+}
+
+
+.date-title {
+  font-size: 18px;
+}
+
+.date-subtitle {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+
+.scores-page.container-fluid {
+  max-width: 1200px;
+}
+
+.ant-picker-input input {
+  display: none !important;
+}
+
+.ant-picker-suffix {
+  margin: 4px 2px !important;
+}
+
+.ant-picker-clear {
+  display: none;
 }
